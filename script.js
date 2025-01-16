@@ -4,7 +4,7 @@ class GameOfLife {
 	constructor(canvas) {
 		this.canvas = canvas;
 		this.ctx = canvas.getContext("2d");
-		this.cellSize = Math.max(Math.min(window.innerWidth, window.innerHeight) / 40, 5); // Adaptive cell size
+		this.cellSize = Math.max(Math.min(window.innerWidth, window.innerHeight) / 90, 9); // Adaptive cell size
 		this.color = "#4338ca"; // Indigo color matching your theme
 
 		// Resize canvas to fill window
